@@ -1,0 +1,15 @@
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\AccumulatingCode.exe
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\AccumulatingCode.pdb
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Business.dll
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Quartz.NET.dll
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Quartz.dll
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Common.Logging.dll
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Business.pdb
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Quartz.NET.pdb
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\bin\Debug\Quartz.xml
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.csprojResolveAssemblyReference.cache
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.Asynchrony.TimeProgressBar.frmTimeProgressBar.resources
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.MultiThread.VisualControl.frmUseThreadSafeLabel.resources
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.csproj.GenerateResource.Cache
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.exe
+E:\accumulatingcode\AccumulatingCode\AccumulatingCode\obj\x86\Debug\AccumulatingCode.pdb

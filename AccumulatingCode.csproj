@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83CEC530-E245-4CF8-A2F7-9F7134D56A39}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccumulatingCode</RootNamespace>
+    <AssemblyName>AccumulatingCode</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asynchrony\CalculateFolderSize.cs" />
+    <Compile Include="Asynchrony\EventHandlerListExample.cs" />
+    <Compile Include="Asynchrony\TimeProgressBar\frmTimeProgressBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asynchrony\TimeProgressBar\frmTimeProgressBar.Designer.cs">
+      <DependentUpon>frmTimeProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asynchrony\TimeProgressBar\TimeProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Asynchrony\TimeProgressBar\TimeProgressBar.Designer.cs">
+      <DependentUpon>TimeProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Asynchrony\TimerCallbackExample.cs" />
+    <Compile Include="Calculate\CircleCalculate.cs" />
+    <Compile Include="Calculate\CoordinateCalculate.cs" />
+    <Compile Include="CustomControl\ThreadSafeLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\ThreadSafeLabel.Designer.cs">
+      <DependentUpon>ThreadSafeLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimeOperator\Calendar.cs" />
+    <Compile Include="MultiProcess\frmReader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiProcess\frmReader.Designer.cs">
+      <DependentUpon>frmReader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiProcess\frmUseClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiProcess\frmUseClipboard.Designer.cs">
+      <DependentUpon>frmUseClipboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\AutoResetEventExample.cs" />
+    <Compile Include="MultiThread\ManualResetEventExample.cs" />
+    <Compile Include="MultiThread\MonitorExample.cs" />
+    <Compile Include="MultiThread\MutexExample.cs" />
+    <Compile Include="MultiThread\SemaphoreExample.cs" />
+    <Compile Include="MultiThread\ThreadPoolExample.cs" />
+    <Compile Include="MultiThread\VisualControl\frmBackgroundWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmBackgroundWorker.Designer.cs">
+      <DependentUpon>frmBackgroundWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmReaderWriterLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmReaderWriterLock.Designer.cs">
+      <DependentUpon>frmReaderWriterLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmSplash2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmSplash2.Designer.cs">
+      <DependentUpon>frmSplash2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmUseThreadSafeLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmUseThreadSafeLabel.Designer.cs">
+      <DependentUpon>frmUseThreadSafeLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmVisitVisualControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmVisitVisualControl.Designer.cs">
+      <DependentUpon>frmVisitVisualControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmWhatIsThread.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\frmWhatIsThread.Designer.cs">
+      <DependentUpon>frmWhatIsThread.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiThread\VisualControl\SplashAppContext.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MultiThread\ParameterizedThread.cs" />
+    <Compile Include="MultiThread\ShellMethodThread.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Business\Business.csproj">
+      <Project>{273ED837-8E4B-4BFF-80A5-1BBE711D6ECC}</Project>
+      <Name>Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Quartz.NET\Quartz.NET.csproj">
+      <Project>{0F8E0956-843C-47EB-B827-3B32D055E896}</Project>
+      <Name>Quartz.NET</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Asynchrony\TimeProgressBar\frmTimeProgressBar.resx">
+      <DependentUpon>frmTimeProgressBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MultiThread\VisualControl\frmUseThreadSafeLabel.resx">
+      <DependentUpon>frmUseThreadSafeLabel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
